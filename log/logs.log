@@ -58,3 +58,19 @@
 2021-27-07 21:13:37   INFO [RegistrationTest:89  ] : Input alias - 235asfasf-123@yopmail.com
 2021-27-07 21:13:40   INFO [RegistrationTest:91  ] : Click button submit registration
 2021-27-07 21:13:41   INFO [RegistrationTest:93  ] : Check h1 is displayed - //div[@id='center_column']/h1
+2021-29-07 20:26:23   INFO [RegistrationPage:27  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-29-07 20:26:39   INFO [RegistrationPage:97  ] : Input email 235asfasf-123@yopmail.com
+2021-29-07 20:26:39   INFO [RegistrationPage:110 ] : Click submit button
+2021-29-07 20:27:52   INFO [RegistrationPage:27  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-29-07 20:28:03   INFO [RegistrationPage:97  ] : Input email 23523-asdsaweqr@yopmail.com
+2021-29-07 20:28:03   INFO [RegistrationPage:110 ] : Click submit button
+2021-29-07 20:29:47   INFO [RegistrationPage:27  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-29-07 20:29:47   INFO [RegistrationPage:97  ] : Input email 3423-dsfgsdf@yopmail.com
+2021-29-07 20:29:47   INFO [RegistrationPage:110 ] : Click submit button
+2021-29-07 20:29:53   INFO [RegistrationPage:125 ] : Find select city by 32
+2021-29-07 20:29:53   INFO [RegistrationPage:138 ] : Find select country United States
+2021-29-07 20:32:16   INFO [RegistrationPage:27  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-29-07 20:32:16   INFO [RegistrationPage:97  ] : Input email 3254234-qwewqe@yopmail.com
+2021-29-07 20:32:16   INFO [RegistrationPage:110 ] : Click submit button
+2021-29-07 20:32:22   INFO [RegistrationPage:125 ] : Find select city by 32
+2021-29-07 20:32:23   INFO [RegistrationPage:138 ] : Find select country United States

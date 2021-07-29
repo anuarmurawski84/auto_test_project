@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import pages.MainPage;
+import pages.RegistrationPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -15,8 +17,20 @@ public class RegistrationTest {
 
     private WebDriver webDriver;
     private Logger logger = Logger.getLogger(getClass());
-    
-    private String email = "235asfasf-123@yopmail.com";
+
+    public RegistrationPage registrationPage;
+    public MainPage mainPage;
+
+    private final String FIRST_NAME = "Dima";
+    private final String LAST_NAME = "Hulak";
+    private final String EMAIL = "3254234-qwewqe@yopmail.com";
+    private final String PASSWORD = "qwerty123";
+    private final String STREET = "street New York, 12";
+    private final String CITY = "New York";
+    private final int CITY_INDEX = 32;
+    private final String POST_CODE = "12345";
+    private final String COUNTRY = "United States";
+    private final String PHONE_MOBILE = "1234567890";
 
     @Test
     public void testRegistrationValid() {
@@ -41,8 +55,8 @@ public class RegistrationTest {
 //        webDriver.findElement(By.cssSelector(".login")).click();
         logger.info("Click login - //a[@class='login']");
         webDriver.findElement(By.xpath("//input[@id='email_create']"))
-                .sendKeys(email);
-        logger.info("Input email - " + email);
+                .sendKeys(EMAIL);
+        logger.info("Input email - " + EMAIL);
         webDriver.findElement(By.name("SubmitCreate")).click();
 //        webDriver.findElement(By.name("button[name$='SubmitCreate']")).click();
         logger.info("Click account create form");
@@ -53,8 +67,8 @@ public class RegistrationTest {
                 .sendKeys("Hulak");
         logger.info("Input customer lastname - Hulak");
         webDriver.findElement(By.id("email")).clear();
-        webDriver.findElement(By.id("email")).sendKeys(email);
-        logger.info("Input email - " + email);
+        webDriver.findElement(By.id("email")).sendKeys(EMAIL);
+        logger.info("Input email - " + EMAIL);
         webDriver.findElement(By.id("passwd"))
                 .sendKeys("qwerty123");
         logger.info("Input password - qwerty123");
@@ -85,12 +99,52 @@ public class RegistrationTest {
         logger.info("Input phone - 1234567890");
         webDriver.findElement(By.xpath("//input[@id='alias']")).clear();
         webDriver.findElement(By.xpath("//input[@id='alias']"))
-                .sendKeys(email);
-        logger.info("Input alias - " + email);
+                .sendKeys(EMAIL);
+        logger.info("Input alias - " + EMAIL);
         webDriver.findElement(By.xpath("//button[@name='submitAccount']")).click();
         logger.info("Click button submit registration");
 //        webDriver.findElement(By.xpath("//div[@id='center_column']/h1")).isDisplayed();
 //        logger.info("Check h1 is displayed - //div[@id='center_column']/h1");
+
+        //Close chromedriver
+        webDriver.quit();
+    }
+
+    @Test
+    public void testRegistration() {
+        //Setup browser
+        File chrome = new File("./drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", chrome.getAbsolutePath());
+        webDriver = new ChromeDriver();
+        registrationPage = new RegistrationPage(webDriver);
+        webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Your personal info
+        registrationPage.openRegistrationPage();
+        registrationPage.inputEmailCreate(EMAIL);
+        registrationPage.submitButtonCreate();
+        //another method
+        registrationPage.customerFirstName.sendKeys(FIRST_NAME);
+        registrationPage.customerLastName.sendKeys(LAST_NAME);
+        registrationPage.emailInput.clear();
+        registrationPage.emailInput.sendKeys(EMAIL);
+        registrationPage.passwordInput.sendKeys(PASSWORD);
+        //your address
+        registrationPage.firstNameInput.clear();
+        registrationPage.firstNameInput.sendKeys(FIRST_NAME);
+        registrationPage.LastNameInput.clear();
+        registrationPage.LastNameInput.sendKeys(LAST_NAME);
+        registrationPage.streetInput.sendKeys(STREET);
+        registrationPage.cityInput.sendKeys(CITY);
+        registrationPage.selectCity(CITY_INDEX);
+        registrationPage.postCodeInput.sendKeys(POST_CODE);
+        registrationPage.selectCountry(COUNTRY);
+        registrationPage.phoneMobileInput.sendKeys(PHONE_MOBILE);
+        registrationPage.aliasInput.clear();
+        registrationPage.aliasInput.sendKeys(EMAIL);
+        registrationPage.submitAccount.click();
+        registrationPage.titleRegisteredAccount.isDisplayed();
+//        Assert.assertEquals("MY ACCOUNT", registrationPage.titleRegisteredAccount);
 
         //Close chromedriver
         webDriver.quit();
