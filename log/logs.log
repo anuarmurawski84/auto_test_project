@@ -1,0 +1,60 @@
+2021-27-07 20:59:29   INFO [RegistrationTest:30  ] : Open ulr - http://automationpractice.com/index.php
+2021-27-07 20:59:30   INFO [RegistrationTest:40  ] : Click login - //a[@class='login']
+2021-27-07 20:59:30   INFO [RegistrationTest:43  ] : Input email - 1sadasda-7750@yopmail.com
+2021-27-07 20:59:30   INFO [RegistrationTest:46  ] : Click account create form
+2021-27-07 20:59:32   INFO [RegistrationTest:49  ] : Input customer firstname - Dima
+2021-27-07 20:59:32   INFO [RegistrationTest:52  ] : Input customer lastname - Hulak
+2021-27-07 20:59:32   INFO [RegistrationTest:55  ] : Input email - 1sadasda-7750@yopmail.com
+2021-27-07 20:59:32   INFO [RegistrationTest:58  ] : Input password - qwerty123
+2021-27-07 20:59:32   INFO [RegistrationTest:63  ] : Input first name - Dima
+2021-27-07 20:59:32   INFO [RegistrationTest:66  ] : input last name - Hulak
+2021-27-07 21:09:21   INFO [RegistrationTest:32  ] : Open ulr - http://automationpractice.com/index.php
+2021-27-07 21:09:22   INFO [RegistrationTest:42  ] : Click login - //a[@class='login']
+2021-27-07 21:09:23   INFO [RegistrationTest:45  ] : Input email - weqweqwe-23523fawe@yopmail.com
+2021-27-07 21:09:23   INFO [RegistrationTest:48  ] : Click account create form
+2021-27-07 21:09:24   INFO [RegistrationTest:51  ] : Input customer firstname - Dima
+2021-27-07 21:09:24   INFO [RegistrationTest:54  ] : Input customer lastname - Hulak
+2021-27-07 21:09:24   INFO [RegistrationTest:57  ] : Input email - weqweqwe-23523fawe@yopmail.com
+2021-27-07 21:09:24   INFO [RegistrationTest:60  ] : Input password - qwerty123
+2021-27-07 21:09:25   INFO [RegistrationTest:65  ] : Input first name - Dima
+2021-27-07 21:09:25   INFO [RegistrationTest:68  ] : input last name - Hulak
+2021-27-07 21:09:25   INFO [RegistrationTest:75  ] : Select by index - 32
+2021-27-07 21:09:26   INFO [RegistrationTest:78  ] : Input post code - 12390124
+2021-27-07 21:09:26   INFO [RegistrationTest:82  ] : Select by visible text - United States
+2021-27-07 21:09:26   INFO [RegistrationTest:85  ] : Input phone - 1234567890
+2021-27-07 21:09:26   INFO [RegistrationTest:89  ] : Input alias - weqweqwe-23523fawe@yopmail.com
+2021-27-07 21:09:27   INFO [RegistrationTest:91  ] : Click button submit registration
+2021-27-07 21:10:42   INFO [RegistrationTest:32  ] : Open ulr - http://automationpractice.com/index.php
+2021-27-07 21:10:44   INFO [RegistrationTest:42  ] : Click login - //a[@class='login']
+2021-27-07 21:10:44   INFO [RegistrationTest:45  ] : Input email - wqeqwe-2352542@yopmail.com
+2021-27-07 21:10:44   INFO [RegistrationTest:48  ] : Click account create form
+2021-27-07 21:10:46   INFO [RegistrationTest:51  ] : Input customer firstname - Dima
+2021-27-07 21:10:46   INFO [RegistrationTest:54  ] : Input customer lastname - Hulak
+2021-27-07 21:10:46   INFO [RegistrationTest:57  ] : Input email - wqeqwe-2352542@yopmail.com
+2021-27-07 21:10:46   INFO [RegistrationTest:60  ] : Input password - qwerty123
+2021-27-07 21:10:47   INFO [RegistrationTest:65  ] : Input first name - Dima
+2021-27-07 21:10:47   INFO [RegistrationTest:68  ] : input last name - Hulak
+2021-27-07 21:10:48   INFO [RegistrationTest:75  ] : Select by index - 32
+2021-27-07 21:10:48   INFO [RegistrationTest:78  ] : Input post code - 12390124
+2021-27-07 21:10:48   INFO [RegistrationTest:82  ] : Select by visible text - United States
+2021-27-07 21:10:48   INFO [RegistrationTest:85  ] : Input phone - 1234567890
+2021-27-07 21:10:48   INFO [RegistrationTest:89  ] : Input alias - wqeqwe-2352542@yopmail.com
+2021-27-07 21:12:01   INFO [RegistrationTest:91  ] : Click button submit registration
+2021-27-07 21:12:04   INFO [RegistrationTest:93  ] : Check h1 is displayed - //div[@id='center_column']/h1
+2021-27-07 21:13:30   INFO [RegistrationTest:32  ] : Open ulr - http://automationpractice.com/index.php
+2021-27-07 21:13:33   INFO [RegistrationTest:42  ] : Click login - //a[@class='login']
+2021-27-07 21:13:33   INFO [RegistrationTest:45  ] : Input email - 235asfasf-123@yopmail.com
+2021-27-07 21:13:33   INFO [RegistrationTest:48  ] : Click account create form
+2021-27-07 21:13:35   INFO [RegistrationTest:51  ] : Input customer firstname - Dima
+2021-27-07 21:13:35   INFO [RegistrationTest:54  ] : Input customer lastname - Hulak
+2021-27-07 21:13:35   INFO [RegistrationTest:57  ] : Input email - 235asfasf-123@yopmail.com
+2021-27-07 21:13:35   INFO [RegistrationTest:60  ] : Input password - qwerty123
+2021-27-07 21:13:35   INFO [RegistrationTest:65  ] : Input first name - Dima
+2021-27-07 21:13:36   INFO [RegistrationTest:68  ] : input last name - Hulak
+2021-27-07 21:13:36   INFO [RegistrationTest:75  ] : Select by index - 32
+2021-27-07 21:13:36   INFO [RegistrationTest:78  ] : Input post code - 12345
+2021-27-07 21:13:37   INFO [RegistrationTest:82  ] : Select by visible text - United States
+2021-27-07 21:13:37   INFO [RegistrationTest:85  ] : Input phone - 1234567890
+2021-27-07 21:13:37   INFO [RegistrationTest:89  ] : Input alias - 235asfasf-123@yopmail.com
+2021-27-07 21:13:40   INFO [RegistrationTest:91  ] : Click button submit registration
+2021-27-07 21:13:41   INFO [RegistrationTest:93  ] : Check h1 is displayed - //div[@id='center_column']/h1
