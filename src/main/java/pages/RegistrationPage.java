@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
@@ -79,46 +78,78 @@ public class RegistrationPage extends MainPage {
      * Method click to SingIn page
      */
     public void clickToSingIn() {
-        try {
-            loginInput.click();
-            logger.info("Click to SingIn page");
-        } catch (Exception e) {
-            logger.error("Can't click to SingIn");
-            Assert.fail("Can't click to SingIn");
-        }
+        webElements.clickOnElement(loginInput);
     }
 
     /**
      * Method input email
+     *
      * @param email
-     * */
+     */
     public void inputEmailCreate(String email) {
-        try {
-            emailCreateInput.sendKeys(email);
-            logger.info("Input email " + email);
-        } catch (Exception e) {
-            logger.error("Can't input email " + email);
-            Assert.fail("Can't input email " + email);
-        }
+        webElements.inputText(emailCreateInput, email);
     }
 
     /**
      * Method submit button
-     * */
+     */
     public void submitButtonCreate() {
-        try {
-            submitButtonCreate.click();
-            logger.info("Click submit button");
-        } catch (Exception e) {
-            logger.error("Can't submit button");
-            Assert.fail("Can't submit button");
-        }
+        webElements.clickOnElement(submitButtonCreate);
+    }
+
+    public void inputCustomerFN(String firstName) {
+        webElements.inputText(customerFirstName, firstName);
+    }
+
+    public void inputCustomerLN(String lastName) {
+        webElements.inputText(customerLastName, lastName);
+    }
+
+    public void inputEmail(String email) {
+        webElements.inputText(emailInput, email);
+    }
+
+    public void inputPassword(String password) {
+        webElements.inputText(passwordInput, password);
+    }
+
+    public void inputFirstName(String firstName) {
+        webElements.inputText(firstNameInput, firstName);
+    }
+
+    public void inputLastName(String lastName) {
+        webElements.inputText(LastNameInput, lastName);
+    }
+
+    public void inputStreet(String street) {
+        webElements.inputText(streetInput, street);
+    }
+
+    public void inputCity(String city) {
+        webElements.inputText(cityInput, city);
+    }
+
+    public void inputPostCode(String postCode) {
+        webElements.inputText(postCodeInput, postCode);
+    }
+
+    public void inputMobilePhone(String phone) {
+        webElements.inputText(phoneMobileInput, phone);
+    }
+
+    public void inputAlias(String alias) {
+        webElements.inputText(aliasInput, alias);
+    }
+
+    public void clickSubmitAccount() {
+        webElements.clickOnElement(submitAccount);
     }
 
     /**
      * Method select city by index
+     *
      * @param index
-     * */
+     */
     public void selectCity(int index) {
         try {
             Select select = new Select(webDriver.findElement(By.id("id_state")));
@@ -131,7 +162,7 @@ public class RegistrationPage extends MainPage {
 
     /**
      * Method
-     * */
+     */
     public void selectCountry(String country) {
         try {
             Select select = new Select(webDriver.findElement(By.id("id_country")));
@@ -142,13 +173,17 @@ public class RegistrationPage extends MainPage {
         }
     }
 
-    /**
-     * Method
-     * @param
-     * */
+    public void checkTitle(String message, boolean actual, boolean expected) {
+        webElements.checkAC(message, actual, expected);
+    }
 
-    /**
-     * Method
-     * @param
-     * */
+    public boolean checkElementPresent() {
+        webElements.isElementPresent(titleRegisteredAccount);
+        return true;
+    }
+
+    public boolean checkTitleTextOnPage(String title) {
+        webElements.checkTitle(title);
+        return true;
+    }
 }

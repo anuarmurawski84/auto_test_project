@@ -74,3 +74,54 @@
 2021-29-07 20:32:16   INFO [RegistrationPage:110 ] : Click submit button
 2021-29-07 20:32:22   INFO [RegistrationPage:125 ] : Find select city by 32
 2021-29-07 20:32:23   INFO [RegistrationPage:138 ] : Find select country United States
+2021-03-08 20:09:17   INFO [RegistrationPage:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-03-08 20:09:18   INFO [WebElements:32  ] : 547457-rghdrgbd@yopmail.com was inputted
+2021-03-08 20:09:18   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (e38cd3bcaab794c77ff1a2929b6d2231)] -> name: SubmitCreate]
+2021-03-08 20:09:19   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:09:19   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:09:19   INFO [WebElements:32  ] : 547457-rghdrgbd@yopmail.com was inputted
+2021-03-08 20:09:19   INFO [WebElements:32  ] : qwerty123 was inputted
+2021-03-08 20:09:20   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:09:20   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:09:20   INFO [WebElements:32  ] : street New York, 12 was inputted
+2021-03-08 20:09:20   INFO [WebElements:32  ] : New York was inputted
+2021-03-08 20:09:21   INFO [RegistrationPage:157 ] : Find select city by 32
+2021-03-08 20:09:21   INFO [WebElements:32  ] : 12345 was inputted
+2021-03-08 20:09:21   INFO [RegistrationPage:170 ] : Find select country United States
+2021-03-08 20:09:21   INFO [WebElements:32  ] : 1234567890 was inputted
+2021-03-08 20:09:21   INFO [WebElements:32  ] : 547457-rghdrgbd@yopmail.com was inputted
+2021-03-08 20:09:33   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-03-08 20:11:01   INFO [RegistrationPage:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-03-08 20:11:01   INFO [WebElements:32  ] : 43634-54hdrhfdh@yopmail.com was inputted
+2021-03-08 20:11:01   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (2af89c7d4010bc4c6d085ebf77d8425c)] -> name: SubmitCreate]
+2021-03-08 20:11:02   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:11:02   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : 43634-54hdrhfdh@yopmail.com was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : qwerty123 was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : street New York, 12 was inputted
+2021-03-08 20:11:03   INFO [WebElements:32  ] : New York was inputted
+2021-03-08 20:11:04   INFO [RegistrationPage:157 ] : Find select city by 32
+2021-03-08 20:11:04   INFO [WebElements:32  ] : 12345 was inputted
+2021-03-08 20:11:04   INFO [RegistrationPage:170 ] : Find select country United States
+2021-03-08 20:11:04   INFO [WebElements:32  ] : 1234567890 was inputted
+2021-03-08 20:11:04   INFO [WebElements:32  ] : 43634-54hdrhfdh@yopmail.com was inputted
+2021-03-08 20:11:16   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-03-08 20:19:20   INFO [RegistrationPage:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-03-08 20:19:20   INFO [WebElements:32  ] : 346346-sdgsdgs@yopmail.com was inputted
+2021-03-08 20:19:20   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (a576e74bfd7375eb67f6d7da64f07620)] -> name: SubmitCreate]
+2021-03-08 20:19:22   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:19:22   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:19:22   INFO [WebElements:32  ] : 346346-sdgsdgs@yopmail.com was inputted
+2021-03-08 20:19:22   INFO [WebElements:32  ] : qwerty123 was inputted
+2021-03-08 20:19:22   INFO [WebElements:32  ] : Dima was inputted
+2021-03-08 20:19:23   INFO [WebElements:32  ] : Hulak was inputted
+2021-03-08 20:19:23   INFO [WebElements:32  ] : street New York, 12 was inputted
+2021-03-08 20:19:23   INFO [WebElements:32  ] : New York was inputted
+2021-03-08 20:19:23   INFO [RegistrationPage:157 ] : Find select city by 32
+2021-03-08 20:19:24   INFO [WebElements:32  ] : 12345 was inputted
+2021-03-08 20:19:24   INFO [RegistrationPage:170 ] : Find select country United States
+2021-03-08 20:19:24   INFO [WebElements:32  ] : 1234567890 was inputted
+2021-03-08 20:19:24   INFO [WebElements:32  ] : 346346-sdgsdgs@yopmail.com was inputted
+2021-03-08 20:19:38   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
