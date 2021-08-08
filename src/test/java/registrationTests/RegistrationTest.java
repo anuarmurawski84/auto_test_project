@@ -20,7 +20,7 @@ public class RegistrationTest {
 
     private final String FIRST_NAME = "Dima";
     private final String LAST_NAME = "Hulak";
-    private final String EMAIL = "346346-sdgsdgs@yopmail.com";
+    private final String EMAIL = "34sss46-sdgsdgs@yopmail.com";
     private final String PASSWORD = "qwerty123";
     private final String STREET = "street New York, 12";
     private final String CITY = "New York";
