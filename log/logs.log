@@ -142,3 +142,22 @@
 2021-07-08 21:08:39   INFO [WebElements:32  ] : 1234567890 was inputted
 2021-07-08 21:08:39   INFO [WebElements:32  ] : 34sss46-sdgsdgs@yopmail.com was inputted
 2021-07-08 21:08:53   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-09-08 01:04:09   INFO [RegistrationTest:54  ] : Open url - automationpractice.com
+2021-09-08 01:04:11   INFO [RegistrationPage:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-09-08 01:04:12   INFO [WebElements:33  ] : hilario.swaniawski@gmail.com was inputted
+2021-09-08 01:04:12   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (9a40d025363969d8c9260dfe23aaa0d4)] -> name: SubmitCreate]
+2021-09-08 01:04:18   INFO [WebElements:33  ] : Dima was inputted
+2021-09-08 01:04:18   INFO [WebElements:33  ] : Hulak was inputted
+2021-09-08 01:04:18   INFO [WebElements:33  ] : mickey.cruickshank@hotmail.com was inputted
+2021-09-08 01:04:18   INFO [WebElements:33  ] : qwerty123 was inputted
+2021-09-08 01:04:19   INFO [WebElements:33  ] : Dima was inputted
+2021-09-08 01:04:19   INFO [WebElements:33  ] : Hulak was inputted
+2021-09-08 01:04:19   INFO [WebElements:33  ] : street New York, 12 was inputted
+2021-09-08 01:04:19   INFO [WebElements:33  ] : New York was inputted
+2021-09-08 01:04:19   INFO [WebElements:113 ] : Was selected dropdown by text: New York
+2021-09-08 01:04:20   INFO [WebElements:33  ] : 12345 was inputted
+2021-09-08 01:04:20   INFO [WebElements:113 ] : Was selected dropdown by text: United States
+2021-09-08 01:04:20   INFO [WebElements:33  ] : 1234567890 was inputted
+2021-09-08 01:04:20   INFO [WebElements:33  ] : numbers.kunde@hotmail.com was inputted
+2021-09-08 01:04:32   INFO [WebElements:48  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-09-08 01:04:33   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest\testRegistration.png

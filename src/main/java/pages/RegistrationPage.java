@@ -47,7 +47,7 @@ public class RegistrationPage extends MainPage {
     public WebElement cityInput;
 
     @FindBy(id = "id_state")
-    public WebElement selectStateByIndex;
+    public WebElement selectState;
 
     @FindBy(css = "#postcode")
     public WebElement postCodeInput;
@@ -145,45 +145,26 @@ public class RegistrationPage extends MainPage {
         webElements.clickOnElement(submitAccount);
     }
 
-    /**
-     * Method select city by index
-     *
-     * @param index
-     */
-    public void selectCity(int index) {
-        try {
-            Select select = new Select(webDriver.findElement(By.id("id_state")));
-            select.selectByIndex(index);
-            logger.info("Find select city by 32");
-        } catch (Exception e) {
-            logger.error("Can't find select city by 32");
-        }
+
+    public void selectCity(String text){
+        webElements.selectTextInDropDownByText(selectState, text);
     }
 
-    /**
-     * Method
-     */
-    public void selectCountry(String country) {
-        try {
-            Select select = new Select(webDriver.findElement(By.id("id_country")));
-            select.selectByVisibleText(country);
-            logger.info("Find select country " + country);
-        } catch (Exception e) {
-            logger.error("Can't find select country " + country);
-        }
+    public void selectCountry(String text) {
+        webElements.selectTextInDropDownByText(idCountry, text);
     }
 
-    public void checkTitle(String message, boolean actual, boolean expected) {
-        webElements.checkAC(message, actual, expected);
-    }
+//    public void checkTitle(String message, boolean actual, boolean expected) {
+//        webElements.checkAC(message, actual, expected);
+//    }
+//
+//    public boolean checkElementPresent() {
+//        webElements.isElementPresent(titleRegisteredAccount);
+//        return true;
+//    }
+//
+//    public boolean checkTitleTextOnPage(String title) {
+//        webElements.checkTitle(title);
+//        return true;
 
-    public boolean checkElementPresent() {
-        webElements.isElementPresent(titleRegisteredAccount);
-        return true;
-    }
-
-    public boolean checkTitleTextOnPage(String title) {
-        webElements.checkTitle(title);
-        return true;
-    }
 }

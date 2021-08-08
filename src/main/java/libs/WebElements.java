@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import static org.hamcrest.CoreMatchers.is;
 
@@ -98,8 +99,28 @@ public class WebElements {
         }
     }
 
-    public void checkAC(String message, boolean actualRes, boolean expectedRes) {
-        Assert.assertThat(message, actualRes, is(expectedRes));
+    /**
+     * Method check select in dropdown
+     *
+     * @param dropdown
+     * @param text
+     */
+    public void selectTextInDropDownByText(WebElement dropdown, String text) {
+        try {
+            Select optionsFromDropDown = new Select(dropdown);
+            optionsFromDropDown.selectByVisibleText(text);
+//            optionsFromDropDown.selectByIndex(index);
+            logger.info("Was selected dropdown by text: " + text);
+        } catch (Exception e) {
+            logger.error("Can't work with dropdown");
+            Assert.fail("Can't work with dropdown");
+        }
     }
-
 }
+
+
+//    public void checkAC(String message, boolean actualRes, boolean expectedRes) {
+//        Assert.assertThat(message, actualRes, is(expectedRes));
+//    }
+
+
