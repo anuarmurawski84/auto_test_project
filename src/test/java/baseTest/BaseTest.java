@@ -39,6 +39,7 @@ public class BaseTest {
         this.browser = browser;
     }
 
+//    Iterable instead of Collection for int
     @Parameterized.Parameters
     public static Collection testData(){
         return Arrays.asList(new Object[][]{

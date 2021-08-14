@@ -83,7 +83,6 @@ public class RegistrationPage extends MainPage {
 
     /**
      * Method input email
-     *
      * @param email
      */
     public void inputEmailCreate(String email) {
