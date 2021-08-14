@@ -1,16 +1,12 @@
 package registrationTests;
 
 import baseTest.BaseTest;
-import org.junit.Test;
-
-
-import java.io.File;
-import java.util.concurrent.TimeUnit;
+import org.testng.annotations.Test;
 
 public class RegistrationTest extends BaseTest {
 
-    private final String FIRST_NAME = "Dima";
-    private final String LAST_NAME = "Hulak";
+    private final String FIRST_NAME = "Edward";
+    private final String LAST_NAME = "Asan";
 //    private final String EMAIL = "34sss46-sdgsdgs@yopmail.com";
     private final String PASSWORD = "qwerty123";
     private final String STREET = "street New York, 12";
@@ -19,10 +15,6 @@ public class RegistrationTest extends BaseTest {
     private final String POST_CODE = "12345";
     private final String COUNTRY = "United States";
     private final String PHONE_MOBILE = "1234567890";
-
-    public RegistrationTest(String browser) {
-        super(browser);
-    }
 
 
     @Test
@@ -47,16 +39,7 @@ public class RegistrationTest extends BaseTest {
         registrationPage.inputMobilePhone(PHONE_MOBILE);
         registrationPage.inputAlias(faker.internet().emailAddress());
         registrationPage.clickSubmitAccount();
-        checkAC("Text is present",
-                registrationPage.titleRegisteredAccount.isDisplayed(),
+        checkAC(registrationPage.titleRegisteredAccount.isDisplayed(),
                 true);
-        //Asserts
-//        registrationPage.checkTitle("Title",
-//                registrationPage.checkTitleTextOnPage("My account - My Store"),
-//                true);
-//        registrationPage.checkTitle("Title",
-//                registrationPage.checkElementPresent()
-//
-
     }
 }

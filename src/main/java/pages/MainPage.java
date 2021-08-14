@@ -2,11 +2,9 @@ package pages;
 
 import libs.WebElements;
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-
-import static org.hamcrest.CoreMatchers.is;
+import org.testng.Assert;
 
 public class MainPage {
 

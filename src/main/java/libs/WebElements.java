@@ -1,13 +1,12 @@
 package libs;
 
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
-import static org.hamcrest.CoreMatchers.is;
 
 public class WebElements {
 
@@ -74,15 +73,6 @@ public class WebElements {
         }
     }
 
-    public void checkTitle(String expectedTitle) {
-        try {
-            Assert.assertThat("Title not matched", webDriver.getTitle(), is(expectedTitle));
-        } catch (Exception e) {
-            logger.error("Can't find title " + expectedTitle);
-            Assert.fail("Can't find title " + expectedTitle);
-        }
-    }
-
     /**
      * Method check text in element
      *
@@ -92,7 +82,7 @@ public class WebElements {
     public void checkTextInElement(String xpath, String text) {
         try {
             String textFromElement = webDriver.findElement(By.xpath(xpath)).getText();
-            Assert.assertThat("Text in element not matched", textFromElement, is(text));
+            Assert.assertEquals(textFromElement, text);
         } catch (Exception e) {
             logger.error("Can't check text in element " + text);
             Assert.fail("Can't check text in element " + text);
@@ -117,10 +107,5 @@ public class WebElements {
         }
     }
 }
-
-
-//    public void checkAC(String message, boolean actualRes, boolean expectedRes) {
-//        Assert.assertThat(message, actualRes, is(expectedRes));
-//    }
 
 

@@ -1,11 +1,8 @@
 package pages;
 
-import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage extends MainPage {
 
@@ -83,6 +80,7 @@ public class RegistrationPage extends MainPage {
 
     /**
      * Method input email
+     *
      * @param email
      */
     public void inputEmailCreate(String email) {
@@ -145,25 +143,12 @@ public class RegistrationPage extends MainPage {
     }
 
 
-    public void selectCity(String text){
+    public void selectCity(String text) {
         webElements.selectTextInDropDownByText(selectState, text);
     }
 
     public void selectCountry(String text) {
         webElements.selectTextInDropDownByText(idCountry, text);
     }
-
-//    public void checkTitle(String message, boolean actual, boolean expected) {
-//        webElements.checkAC(message, actual, expected);
-//    }
-//
-//    public boolean checkElementPresent() {
-//        webElements.isElementPresent(titleRegisteredAccount);
-//        return true;
-//    }
-//
-//    public boolean checkTitleTextOnPage(String title) {
-//        webElements.checkTitle(title);
-//        return true;
 
 }
