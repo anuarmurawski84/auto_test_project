@@ -1,5 +1,6 @@
 package pages;
 
+import model.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,14 +11,17 @@ public class RegistrationPage extends MainPage {
         super(webDriver);
     }
 
-    @FindBy(xpath = "//a[@class='login']")
-    public WebElement loginInput;
-
-    @FindBy(xpath = "//input[@id='email_create']")
-    public WebElement emailCreateInput;
-
     @FindBy(name = "SubmitCreate")
     public WebElement submitButtonCreate;
+
+    @FindBy(xpath = "//form[@id='account-creation_form']/div[@class='account_creation']")
+    public WebElement fromAccount;
+
+    @FindBy(id = "id_gender1")
+    public WebElement genderMr;
+
+    @FindBy(id = "id_gender2")
+    public WebElement genderMs;
 
     @FindBy(id = "customer_firstname")
     public WebElement customerFirstName;
@@ -61,8 +65,7 @@ public class RegistrationPage extends MainPage {
     @FindBy(xpath = "//button[@name='submitAccount']")
     public WebElement submitAccount;
 
-    @FindBy(xpath = "//div[@id='center_column']/h1")
-    public WebElement titleRegisteredAccount;
+
 
     /**
      * Method open SingIn page
@@ -72,26 +75,22 @@ public class RegistrationPage extends MainPage {
     }
 
     /**
-     * Method click to SingIn page
-     */
-    public void clickToSingIn() {
-        webElements.clickOnElement(loginInput);
-    }
-
-    /**
-     * Method input email
-     *
-     * @param email
-     */
-    public void inputEmailCreate(String email) {
-        webElements.inputText(emailCreateInput, email);
-    }
-
-    /**
      * Method submit button
      */
     public void submitButtonCreate() {
         webElements.clickOnElement(submitButtonCreate);
+    }
+
+    public void inputFromAccount() {
+        webElements.clickOnElement(fromAccount);
+    }
+
+    public void selectGender(String gender){
+        if (gender.equals("Mr.")){
+            webElements.clickRadioButton(genderMr, gender);
+        } else {
+            webElements.clickRadioButton(genderMs, gender);
+        }
     }
 
     public void inputCustomerFN(String firstName) {
@@ -151,4 +150,8 @@ public class RegistrationPage extends MainPage {
         webElements.selectTextInDropDownByText(idCountry, text);
     }
 
+    public void registrationUser(Account account){
+        selectGender(account.getGender());
+        inputCustomerFN(account.getFirstCustomerName());
+    }
 }

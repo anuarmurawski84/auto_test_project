@@ -1,6 +1,8 @@
 package registrationTests;
 
 import baseTest.BaseTest;
+import dataProviders.RegistrationPageDataProvider;
+import model.Account;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends BaseTest {
@@ -19,16 +21,13 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     public void testRegistration() {
-        //Your personal info
-        registrationPage.openRegistrationPage();
-        registrationPage.inputEmailCreate(faker.internet().emailAddress());
+        signinPage.clickToSingIn();
+        signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
-        //another method
         registrationPage.inputCustomerFN(FIRST_NAME);
         registrationPage.inputCustomerLN(LAST_NAME);
         registrationPage.inputEmail(faker.internet().emailAddress());
         registrationPage.inputPassword(PASSWORD);
-        //your address
         registrationPage.inputFirstName(FIRST_NAME);
         registrationPage.inputLastName(LAST_NAME);
         registrationPage.inputStreet(STREET);
@@ -39,7 +38,15 @@ public class RegistrationTest extends BaseTest {
         registrationPage.inputMobilePhone(PHONE_MOBILE);
         registrationPage.inputAlias(faker.internet().emailAddress());
         registrationPage.clickSubmitAccount();
-        checkAC(registrationPage.titleRegisteredAccount.isDisplayed(),
+        myAccountPage.getHeaderName("My account");
+        checkAC(myAccountPage.titleRegisteredAccount.isDisplayed(),
                 true);
+    }
+
+    @Test(dataProvider = "registrationMewUser", dataProviderClass = RegistrationPageDataProvider.class)
+    public void testCreateAccount(Account userAccount){
+        signinPage.clickToSingIn();
+        signinPage.inputEmailCreate(faker.internet().emailAddress());
+        registrationPage.submitButtonCreate();
     }
 }

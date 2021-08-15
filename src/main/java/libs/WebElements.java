@@ -18,7 +18,6 @@ public class WebElements {
         logger = Logger.getLogger(getClass());
     }
 
-
     /**
      * Method input text
      *
@@ -52,8 +51,27 @@ public class WebElements {
     }
 
     /**
+     * Method click radiobutton
+     * @param text
+     * @return false
+     */
+    public void clickRadioButton(WebElement element, String text){
+        try {
+            boolean status = element.isDisplayed();
+            if (status){
+                logger.info("Radiobutton is initially checked");
+            } else {
+                element.click();
+                logger.info("Element was clicked"+element);
+            }
+        } catch (Exception e){
+            logger.error("Can't work with element " + element);
+            Assert.fail("Can't work with element " + element);
+        }
+    }
+
+    /**
      * Method is element present by text
-     *
      * @param text
      * @return false
      */
@@ -75,7 +93,6 @@ public class WebElements {
 
     /**
      * Method check text in element
-     *
      * @param xpath
      * @param text
      */
@@ -91,7 +108,6 @@ public class WebElements {
 
     /**
      * Method check select in dropdown
-     *
      * @param dropdown
      * @param text
      */
