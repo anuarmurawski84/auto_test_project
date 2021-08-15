@@ -35,14 +35,29 @@ public class RegistrationPage extends MainPage {
     @FindBy(id = "passwd")
     public WebElement passwordInput;
 
+    @FindBy(id = "days")
+    public WebElement daysDropdown;
+
+    @FindBy(id = "months")
+    public WebElement monthsDropdown;
+
+    @FindBy(id = "years")
+    public WebElement yearsDropdown;
+
     @FindBy(xpath = "//input[@id='firstname']")
     public WebElement firstNameInput;
 
     @FindBy(xpath = "//input[@id='lastname']")
     public WebElement LastNameInput;
 
+    @FindBy(id = "company")
+    public WebElement companyName;
+
     @FindBy(xpath = "//div[@class='account_creation']//p[4]//input[@type='text']")
-    public WebElement streetInput;
+    public WebElement addressByDefault;
+
+    @FindBy(xpath = "//div[@class='account_creation']//p[5]//input[@type='text']")
+    public WebElement addressLine;
 
     @FindBy(xpath = "//input[@id='city']")
     public WebElement cityInput;
@@ -109,6 +124,18 @@ public class RegistrationPage extends MainPage {
         webElements.inputText(passwordInput, password);
     }
 
+    public void selectBirthDay(String day){
+        webElements.selectTextInDropDownByText(daysDropdown, day);
+    }
+
+    public void selectBirthMonth(String month){
+        webElements.selectTextInDropDownByText(monthsDropdown, month);
+    }
+
+    public void selectBirthYear(String year){
+        webElements.selectTextInDropDownByText(yearsDropdown, year);
+    }
+
     public void inputFirstName(String firstName) {
         webElements.inputText(firstNameInput, firstName);
     }
@@ -117,8 +144,16 @@ public class RegistrationPage extends MainPage {
         webElements.inputText(LastNameInput, lastName);
     }
 
-    public void inputStreet(String street) {
-        webElements.inputText(streetInput, street);
+    public void inputCompany(String company) {
+        webElements.inputText(companyName, company);
+    }
+
+    public void inputAddressByDefault(String address) {
+        webElements.inputText(addressByDefault, address);
+    }
+
+    public void inputAddressLine(String address) {
+        webElements.inputText(addressLine, address);
     }
 
     public void inputCity(String city) {
@@ -153,5 +188,21 @@ public class RegistrationPage extends MainPage {
     public void registrationUser(Account account){
         selectGender(account.getGender());
         inputCustomerFN(account.getFirstCustomerName());
+        inputCustomerLN(account.getLastCustomerName());
+        inputEmail(account.getEmail());
+        inputPassword(account.getPass());
+        selectBirthDay(account.getDay());
+        selectBirthMonth(account.getDay());
+        selectBirthYear(account.getYear());
+        inputFirstName(account.getFirstName());
+        inputLastName(account.getLastName());
+        inputCompany(account.getCompany());
+        inputAddressByDefault(account.getAddress1());
+        inputAddressLine(account.getAddress2());
+        inputCity(account.getCity());
+        inputPostCode(account.getPostCode());
+        selectCountry(account.getCountry());
+        inputMobilePhone(account.getPhoneMobile());
+        inputAlias(account.getAlias());
     }
 }

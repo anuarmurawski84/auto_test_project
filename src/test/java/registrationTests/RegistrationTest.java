@@ -3,6 +3,7 @@ package registrationTests;
 import baseTest.BaseTest;
 import dataProviders.RegistrationPageDataProvider;
 import model.Account;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends BaseTest {
@@ -24,13 +25,14 @@ public class RegistrationTest extends BaseTest {
         signinPage.clickToSingIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
+        registrationPage.inputFromAccount();
         registrationPage.inputCustomerFN(FIRST_NAME);
         registrationPage.inputCustomerLN(LAST_NAME);
         registrationPage.inputEmail(faker.internet().emailAddress());
         registrationPage.inputPassword(PASSWORD);
         registrationPage.inputFirstName(FIRST_NAME);
         registrationPage.inputLastName(LAST_NAME);
-        registrationPage.inputStreet(STREET);
+        registrationPage.inputAddressByDefault(STREET);
         registrationPage.inputCity(CITY);
         registrationPage.selectCity(CITY_INDEX);
         registrationPage.inputPostCode(POST_CODE);
@@ -43,10 +45,16 @@ public class RegistrationTest extends BaseTest {
                 true);
     }
 
-    @Test(dataProvider = "registrationMewUser", dataProviderClass = RegistrationPageDataProvider.class)
+    @Test(dataProvider = "registrationNewUser", dataProviderClass = RegistrationPageDataProvider.class)
     public void testCreateAccount(Account userAccount){
         signinPage.clickToSingIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
+        registrationPage.registrationUser(userAccount);
+        registrationPage.clickSubmitAccount();
+        checkAC(myAccountPage.titleRegisteredAccount.isDisplayed(),
+                true);
+        Assert.assertEquals(myAccountPage.getAccountName(),
+                userAccount.getFirstCustomerName() + " " + userAccount.getLastCustomerName());
     }
 }
