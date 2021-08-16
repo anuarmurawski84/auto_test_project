@@ -109,9 +109,26 @@ public class WebElements {
     /**
      * Method check select in dropdown
      * @param dropdown
+     * @param value
+     */
+    public void selectValueInDropDown(WebElement dropdown, String value) {
+        try {
+            Select optionsFromDropDown = new Select(dropdown);
+            optionsFromDropDown.selectByValue(value);
+//            optionsFromDropDown.selectByIndex(index);
+            logger.info("Was selected dropdown by text: " + value);
+        } catch (Exception e) {
+            logger.error("Can't work with dropdown");
+            Assert.fail("Can't work with dropdown");
+        }
+    }
+
+    /**
+     * Method check select in dropdown
+     * @param dropdown
      * @param text
      */
-    public void selectTextInDropDownByText(WebElement dropdown, String text) {
+    public void selectTextInDropDown(WebElement dropdown, String text) {
         try {
             Select optionsFromDropDown = new Select(dropdown);
             optionsFromDropDown.selectByVisibleText(text);

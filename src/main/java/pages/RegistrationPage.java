@@ -14,7 +14,7 @@ public class RegistrationPage extends MainPage {
     @FindBy(name = "SubmitCreate")
     public WebElement submitButtonCreate;
 
-    @FindBy(xpath = "//form[@id='account-creation_form']/div[@class='account_creation']")
+    @FindBy(xpath = "//form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]")
     public WebElement fromAccount;
 
     @FindBy(id = "id_gender1")
@@ -125,15 +125,15 @@ public class RegistrationPage extends MainPage {
     }
 
     public void selectBirthDay(String day){
-        webElements.selectTextInDropDownByText(daysDropdown, day);
+        webElements.selectValueInDropDown(daysDropdown, day);
     }
 
     public void selectBirthMonth(String month){
-        webElements.selectTextInDropDownByText(monthsDropdown, month);
+        webElements.selectValueInDropDown(monthsDropdown, month);
     }
 
     public void selectBirthYear(String year){
-        webElements.selectTextInDropDownByText(yearsDropdown, year);
+        webElements.selectValueInDropDown(yearsDropdown, year);
     }
 
     public void inputFirstName(String firstName) {
@@ -178,11 +178,11 @@ public class RegistrationPage extends MainPage {
 
 
     public void selectCity(String text) {
-        webElements.selectTextInDropDownByText(selectState, text);
+        webElements.selectTextInDropDown(selectState, text);
     }
 
     public void selectCountry(String text) {
-        webElements.selectTextInDropDownByText(idCountry, text);
+        webElements.selectTextInDropDown(idCountry, text);
     }
 
     public void registrationUser(Account account){
@@ -192,7 +192,7 @@ public class RegistrationPage extends MainPage {
         inputEmail(account.getEmail());
         inputPassword(account.getPass());
         selectBirthDay(account.getDay());
-        selectBirthMonth(account.getDay());
+        selectBirthMonth(account.getMonth());
         selectBirthYear(account.getYear());
         inputFirstName(account.getFirstName());
         inputLastName(account.getLastName());
