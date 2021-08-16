@@ -25,7 +25,7 @@ public class RegistrationPageDataProvider {
                                 .withCompany("Comp123")
                                 .withAddress1("street Avenu, 4")
                                 .withAddress2("street Avenu, 7")
-                                .withCity("Los Angeles")
+                                .withCity("Los-Angeles")
                                 .withState("California")
                                 .withPostCode("12345")
                                 .withCountry("United States")

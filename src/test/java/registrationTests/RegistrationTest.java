@@ -34,7 +34,7 @@ public class RegistrationTest extends BaseTest {
         registrationPage.inputLastName(LAST_NAME);
         registrationPage.inputAddressByDefault(STREET);
         registrationPage.inputCity(CITY);
-        registrationPage.selectCity(CITY_INDEX);
+        registrationPage.selectState(CITY_INDEX);
         registrationPage.inputPostCode(POST_CODE);
         registrationPage.selectCountry(COUNTRY);
         registrationPage.inputMobilePhone(PHONE_MOBILE);

@@ -89,7 +89,7 @@ public class AccountBuilder {
         this.country = country;
         return this;
     }
-    public AccountBuilder withPhoneMobile(String phone_mobile){
+    public AccountBuilder withPhoneMobile(String phoneMobile){
         this.phoneMobile = phoneMobile;
         return this;
     }

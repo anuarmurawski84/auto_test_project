@@ -1,6 +1,7 @@
 package baseTest;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Step;
 import libs.Utils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -40,6 +41,7 @@ public class BaseTest {
 
     @Parameters("browser")
     @BeforeClass(alwaysRun = true)
+    @Step("Set up browser options {browser}")
     public void setUp(@Optional("chrome") String browser){
         if (browser.toLowerCase().equals("chrome")){
             File chrome = new File("./drivers/chromedriver.exe");
@@ -76,6 +78,7 @@ public class BaseTest {
     }
 
     @AfterClass
+    @Step("Tear down browser")
     public void tearDown(){
         if (!(webDriver==null)){
             utils.screenShot(patchToScreenShot, webDriver);

@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import model.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -92,14 +93,17 @@ public class RegistrationPage extends MainPage {
     /**
      * Method submit button
      */
+    @Step("Submit button")
     public void submitButtonCreate() {
         webElements.clickOnElement(submitButtonCreate);
     }
 
+    @Step("Input from account")
     public void inputFromAccount() {
         webElements.clickOnElement(fromAccount);
     }
 
+    @Step("Select gender {gender}")
     public void selectGender(String gender){
         if (gender.equals("Mr.")){
             webElements.clickRadioButton(genderMr, gender);
@@ -108,79 +112,97 @@ public class RegistrationPage extends MainPage {
         }
     }
 
+    @Step("Input customer first name {firstName}")
     public void inputCustomerFN(String firstName) {
         webElements.inputText(customerFirstName, firstName);
     }
 
+    @Step("Input customer last name {lastName}")
     public void inputCustomerLN(String lastName) {
         webElements.inputText(customerLastName, lastName);
     }
 
+    @Step("Input email {email}")
     public void inputEmail(String email) {
         webElements.inputText(emailInput, email);
     }
 
+    @Step("Input password {password}")
     public void inputPassword(String password) {
         webElements.inputText(passwordInput, password);
     }
 
+    @Step("Select birthday {day}")
     public void selectBirthDay(String day){
         webElements.selectValueInDropDown(daysDropdown, day);
     }
 
+    @Step("Select birth month {month}")
     public void selectBirthMonth(String month){
         webElements.selectValueInDropDown(monthsDropdown, month);
     }
 
+    @Step("Select birth {year}")
     public void selectBirthYear(String year){
         webElements.selectValueInDropDown(yearsDropdown, year);
     }
 
+    @Step("Input First Name {firstName}")
     public void inputFirstName(String firstName) {
         webElements.inputText(firstNameInput, firstName);
     }
 
+    @Step("Input Last Name {lastName}")
     public void inputLastName(String lastName) {
         webElements.inputText(LastNameInput, lastName);
     }
 
+    @Step("Input company {company}")
     public void inputCompany(String company) {
         webElements.inputText(companyName, company);
     }
 
+    @Step("Input default address {address}")
     public void inputAddressByDefault(String address) {
         webElements.inputText(addressByDefault, address);
     }
 
+    @Step("Input address line {addresss}")
     public void inputAddressLine(String address) {
         webElements.inputText(addressLine, address);
     }
 
+    @Step("Input city {city}")
     public void inputCity(String city) {
         webElements.inputText(cityInput, city);
     }
 
+    @Step("Input postcode {postCode}")
     public void inputPostCode(String postCode) {
         webElements.inputText(postCodeInput, postCode);
     }
 
+    @Step("Input mobile phone {phone}")
     public void inputMobilePhone(String phone) {
         webElements.inputText(phoneMobileInput, phone);
     }
 
+    @Step("Input alias {alias}")
     public void inputAlias(String alias) {
         webElements.inputText(aliasInput, alias);
     }
 
+    @Step("Submit account")
     public void clickSubmitAccount() {
         webElements.clickOnElement(submitAccount);
     }
 
-
-    public void selectCity(String text) {
+    @Step("Select state {text}")
+    public void selectState(String text) {
         webElements.selectTextInDropDown(selectState, text);
     }
 
+    @Step("Select country {country}")
     public void selectCountry(String text) {
         webElements.selectTextInDropDown(idCountry, text);
     }
@@ -200,6 +222,7 @@ public class RegistrationPage extends MainPage {
         inputAddressByDefault(account.getAddress1());
         inputAddressLine(account.getAddress2());
         inputCity(account.getCity());
+        selectState(account.getState());
         inputPostCode(account.getPostCode());
         selectCountry(account.getCountry());
         inputMobilePhone(account.getPhoneMobile());

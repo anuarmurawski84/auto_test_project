@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import libs.WebElements;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,7 @@ public class MainPage {
      *
      * @param url
      */
+    @Step("Open url {url}")
     public void openUrl(String url) {
         try {
             webDriver.get(url);

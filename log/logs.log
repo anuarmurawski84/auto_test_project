@@ -390,3 +390,505 @@
 2021-16-08 03:02:35   INFO [WebElements:31  ] : hassan.schowalter@hotmail.com was inputted
 2021-16-08 03:02:47   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
 2021-16-08 03:02:47   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:20:08   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:20:10   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> xpath: //a[@class='login']]
+2021-16-08 03:20:11   INFO [WebElements:31  ] : tanner.douglas@yahoo.com was inputted
+2021-16-08 03:20:11   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> name: SubmitCreate]
+2021-16-08 03:20:16   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:20:17   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:20:17   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:20:17   INFO [WebElements:31  ] : charlette.tremblay@yahoo.com was inputted
+2021-16-08 03:20:18   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:20:18   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:20:18   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:20:18   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:20:18   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:20:18   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:20:19   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:20:19   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:20:19   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:20:19   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:20:19   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:20:19   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:20:20   INFO [WebElements:31  ] : null was inputted
+2021-16-08 03:20:20   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:20:21   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> xpath: //button[@name='submitAccount']]
+2021-16-08 03:20:24   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> xpath: //a[@class='login']]
+2021-16-08 03:20:24   INFO [WebElements:31  ] : hermina.oconner@hotmail.com was inputted
+2021-16-08 03:20:24   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> name: SubmitCreate]
+2021-16-08 03:20:26   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ca497dcd9e2682a49d84b446b3a4e5a7)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 03:20:26   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:20:26   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:20:26   INFO [WebElements:31  ] : lester.mosciski@yahoo.com was inputted
+2021-16-08 03:20:27   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 03:20:27   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:20:27   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:20:27   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 03:20:27   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 03:20:28   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 03:20:28   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:20:28   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:20:28   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:20:28   INFO [WebElements:31  ] : cary.koepp@yahoo.com was inputted
+2021-16-08 03:20:40   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:20:40   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:30:07   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:30:09   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> xpath: //a[@class='login']]
+2021-16-08 03:30:10   INFO [WebElements:31  ] : caleb.hagenes@gmail.com was inputted
+2021-16-08 03:30:10   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> name: SubmitCreate]
+2021-16-08 03:30:15   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:30:15   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:30:16   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:30:16   INFO [WebElements:31  ] : nancie.zboncak@gmail.com was inputted
+2021-16-08 03:30:16   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:30:16   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:30:17   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:30:17   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:30:17   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:30:17   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:30:17   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:30:18   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:30:18   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:30:18   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:30:18   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:30:19   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:30:19   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:30:19   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:30:21   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> xpath: //button[@name='submitAccount']]
+2021-16-08 03:30:23   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> xpath: //a[@class='login']]
+2021-16-08 03:30:23   INFO [WebElements:31  ] : darrel.boyer@gmail.com was inputted
+2021-16-08 03:30:23   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> name: SubmitCreate]
+2021-16-08 03:30:24   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (c301f5ff90ae1bf96cd8cdb6e582a238)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 03:30:25   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:30:25   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:30:25   INFO [WebElements:31  ] : anabel.lynch@hotmail.com was inputted
+2021-16-08 03:30:25   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 03:30:25   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:30:26   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:30:26   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 03:30:26   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 03:30:26   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 03:30:26   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:30:27   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:30:27   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:30:27   INFO [WebElements:31  ] : wesley.hammes@hotmail.com was inputted
+2021-16-08 03:30:39   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:30:39   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:39:35   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:39:37   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> xpath: //a[@class='login']]
+2021-16-08 03:39:37   INFO [WebElements:31  ] : emory.smitham@hotmail.com was inputted
+2021-16-08 03:39:38   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> name: SubmitCreate]
+2021-16-08 03:39:39   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:39:39   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:39:40   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:39:40   INFO [WebElements:31  ] : mathew.davis@gmail.com was inputted
+2021-16-08 03:39:40   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:39:40   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:39:40   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:39:41   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:39:41   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:39:41   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:39:41   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:39:41   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:39:42   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:39:42   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:39:42   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:39:42   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:39:42   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:39:42   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:39:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> xpath: //button[@name='submitAccount']]
+2021-16-08 03:39:45   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> xpath: //a[@class='login']]
+2021-16-08 03:39:45   INFO [WebElements:31  ] : deanne.lindgren@yahoo.com was inputted
+2021-16-08 03:39:46   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> name: SubmitCreate]
+2021-16-08 03:39:47   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (743a43fec21fa8daa4abcd84e98f87e9)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 03:39:48   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:39:48   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:39:48   INFO [WebElements:31  ] : cleo.senger@hotmail.com was inputted
+2021-16-08 03:39:48   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 03:39:49   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:39:49   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:39:49   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 03:39:49   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 03:39:49   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 03:39:50   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:39:50   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:39:50   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:39:50   INFO [WebElements:31  ] : maximo.brakus@hotmail.com was inputted
+2021-16-08 03:40:02   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:40:02   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:40:26   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:40:29   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> xpath: //a[@class='login']]
+2021-16-08 03:40:29   INFO [WebElements:31  ] : rosario.brown@gmail.com was inputted
+2021-16-08 03:40:29   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> name: SubmitCreate]
+2021-16-08 03:40:35   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:40:35   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:40:35  ERROR [WebElements:33  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> id: customer_lastname]
+2021-16-08 03:40:37   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> xpath: //a[@class='login']]
+2021-16-08 03:40:37   INFO [WebElements:31  ] : dino.upton@yahoo.com was inputted
+2021-16-08 03:40:37   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> name: SubmitCreate]
+2021-16-08 03:40:38   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (646aec7ecff886e1d3ed02b1a097f354)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 03:40:39   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:40:39   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:40:39   INFO [WebElements:31  ] : genesis.christiansen@gmail.com was inputted
+2021-16-08 03:40:39   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 03:40:40   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:40:40   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:40:40   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 03:40:40   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 03:40:40   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 03:40:41   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:40:41   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:40:41   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:40:41   INFO [WebElements:31  ] : jerry.koss@gmail.com was inputted
+2021-16-08 03:40:53   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:40:53   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:41:32   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:41:35   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> xpath: //a[@class='login']]
+2021-16-08 03:41:36   INFO [WebElements:31  ] : ellyn.yundt@hotmail.com was inputted
+2021-16-08 03:41:36   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> name: SubmitCreate]
+2021-16-08 03:41:42   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:41:42   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:41:43   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:41:43   INFO [WebElements:31  ] : shirly.rolfson@gmail.com was inputted
+2021-16-08 03:41:43   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:41:43   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:41:43   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:41:44   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:41:44   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:41:44   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:41:44   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:41:44   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:41:45   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:41:45   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:41:45   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:41:45   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:41:45   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:41:45   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:41:47   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> xpath: //button[@name='submitAccount']]
+2021-16-08 03:41:49   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> xpath: //a[@class='login']]
+2021-16-08 03:41:49   INFO [WebElements:31  ] : edwin.mueller@yahoo.com was inputted
+2021-16-08 03:41:49   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> name: SubmitCreate]
+2021-16-08 03:41:51   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (da34dffdfd545ba48f5e4eb9cd339e2d)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 03:41:51   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:41:51   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:41:52   INFO [WebElements:31  ] : vernice.toy@gmail.com was inputted
+2021-16-08 03:41:52   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 03:41:52   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:41:52   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:41:53   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 03:41:53   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 03:41:53   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 03:41:53   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:41:53   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:41:53   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:41:54   INFO [WebElements:31  ] : belle.osinski@hotmail.com was inputted
+2021-16-08 03:42:06   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:42:06   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:44:27   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:44:29   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8a890125ea2ad04ad94edc2a0d9db0b3)] -> xpath: //a[@class='login']]
+2021-16-08 03:44:29   INFO [WebElements:31  ] : bo.lesch@gmail.com was inputted
+2021-16-08 03:44:30   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8a890125ea2ad04ad94edc2a0d9db0b3)] -> name: SubmitCreate]
+2021-16-08 03:44:35   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:44:35   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:44:36   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:44:36   INFO [WebElements:31  ] : esteban.kutch@gmail.com was inputted
+2021-16-08 03:44:36   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:44:36   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:44:37   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:44:37   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:44:37   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:44:37   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:44:37   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:44:38   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:44:38   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:44:38   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:44:38   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:44:38   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:44:39   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:44:39   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:44:40   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8a890125ea2ad04ad94edc2a0d9db0b3)] -> xpath: //button[@name='submitAccount']]
+2021-16-08 03:44:40   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 03:45:14   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:45:17   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8f45430a2e96f34b738866072a58491e)] -> xpath: //a[@class='login']]
+2021-16-08 03:45:17   INFO [WebElements:31  ] : jessie.yundt@hotmail.com was inputted
+2021-16-08 03:45:17   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8f45430a2e96f34b738866072a58491e)] -> name: SubmitCreate]
+2021-16-08 03:45:23   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:45:23   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:45:24   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:45:24   INFO [WebElements:31  ] : lita.pfannerstill@yahoo.com was inputted
+2021-16-08 03:45:24   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:45:24   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:45:25   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:45:25   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:45:25   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:45:25   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:45:25   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:45:26   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:45:26   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:45:26   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:45:26   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:45:26   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:45:26   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:45:27   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:48:23   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:48:26   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (87ad442c154c3602f7c0a70ae13cff42)] -> xpath: //a[@class='login']]
+2021-16-08 03:48:27   INFO [WebElements:31  ] : garland.windler@gmail.com was inputted
+2021-16-08 03:48:27   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (87ad442c154c3602f7c0a70ae13cff42)] -> name: SubmitCreate]
+2021-16-08 03:48:33   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:48:33   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:48:33   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:48:33   INFO [WebElements:31  ] : korey.raynor@yahoo.com was inputted
+2021-16-08 03:48:34   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:48:34   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:48:34   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:48:34   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:48:34   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:48:35   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:48:35   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:48:35   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:48:35   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:48:35   INFO [WebElements:31  ] : Los Angeles was inputted
+2021-16-08 03:48:36   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:48:36   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:48:36   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:48:36   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:57:19   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:57:21   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (799d1f2973cc09717f378e0e64cb0ca1)] -> xpath: //a[@class='login']]
+2021-16-08 03:57:21   INFO [WebElements:31  ] : scott.hilll@gmail.com was inputted
+2021-16-08 03:57:22   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (799d1f2973cc09717f378e0e64cb0ca1)] -> name: SubmitCreate]
+2021-16-08 03:57:27   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:57:27   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:57:28   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:57:28   INFO [WebElements:31  ] : damaris.kirlin@gmail.com was inputted
+2021-16-08 03:57:28   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:57:28   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:57:28   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:57:29   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:57:29   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:57:29   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:57:29   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:57:29   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:57:30   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:57:30   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 03:57:30   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 03:57:30   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:57:30   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:57:31   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:57:31   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:57:42   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 03:59:05   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:59:08   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (e3cca37462ebbcdd25bec55b95a9b061)] -> xpath: //a[@class='login']]
+2021-16-08 03:59:08   INFO [WebElements:31  ] : al.block@yahoo.com was inputted
+2021-16-08 03:59:08   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (e3cca37462ebbcdd25bec55b95a9b061)] -> name: SubmitCreate]
+2021-16-08 03:59:09   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:59:10   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:59:10   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:59:10   INFO [WebElements:31  ] : velvet.koch@gmail.com was inputted
+2021-16-08 03:59:10   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:59:11   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:59:11   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:59:11   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:59:11   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:59:11   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:59:11   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:59:12   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:59:12   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:59:12   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 03:59:12   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 03:59:12   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:59:13   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:59:13   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:59:13   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 03:59:46   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 03:59:49   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (49cf43928cb91eb9412de8b36822f1e0)] -> xpath: //a[@class='login']]
+2021-16-08 03:59:49   INFO [WebElements:31  ] : elisha.legros@yahoo.com was inputted
+2021-16-08 03:59:49   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (49cf43928cb91eb9412de8b36822f1e0)] -> name: SubmitCreate]
+2021-16-08 03:59:54   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 03:59:55   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:59:55   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:59:55   INFO [WebElements:31  ] : percy.mayert@hotmail.com was inputted
+2021-16-08 03:59:56   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 03:59:56   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 03:59:56   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 03:59:56   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 03:59:56   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 03:59:57   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 03:59:57   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 03:59:57   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 03:59:57   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 03:59:57   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 03:59:58   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 03:59:58   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 03:59:58   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 03:59:58   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 03:59:58   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:00:10   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:00:30  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-16-08 04:02:39   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:02:42   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (edd574de4e4308e32a6f1113e79861ee)] -> xpath: //a[@class='login']]
+2021-16-08 04:02:42   INFO [WebElements:31  ] : harris.vonrueden@yahoo.com was inputted
+2021-16-08 04:02:42   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (edd574de4e4308e32a6f1113e79861ee)] -> name: SubmitCreate]
+2021-16-08 04:02:48   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 04:02:48   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:02:48   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:02:48   INFO [WebElements:31  ] : alejandra.koelpin@gmail.com was inputted
+2021-16-08 04:02:49   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 04:02:49   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 04:02:49   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 04:02:49   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 04:02:50   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:02:50   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:02:50   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 04:02:50   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 04:02:50   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 04:02:51   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 04:02:51   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 04:02:51   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:02:51   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:02:51   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:02:52   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:03:04   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:03:24  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-16-08 04:03:34   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:07:49   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:07:51   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (f899502a7aff1e8aa4c35d0874e24585)] -> xpath: //a[@class='login']]
+2021-16-08 04:07:51   INFO [WebElements:31  ] : gretta.beahan@yahoo.com was inputted
+2021-16-08 04:07:52   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (f899502a7aff1e8aa4c35d0874e24585)] -> name: SubmitCreate]
+2021-16-08 04:07:57   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (f899502a7aff1e8aa4c35d0874e24585)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 04:07:57   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:07:58   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:07:58   INFO [WebElements:31  ] : wyatt.thompson@gmail.com was inputted
+2021-16-08 04:07:58   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 04:07:58   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:07:59   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:07:59   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 04:07:59   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 04:07:59   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 04:07:59   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:08:00   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:08:00   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:08:00   INFO [WebElements:31  ] : wade.vandervort@yahoo.com was inputted
+2021-16-08 04:08:12   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:08:12   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:08:37   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:08:40   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (80f7401de1de10aeb17eacc8494eb4e4)] -> xpath: //a[@class='login']]
+2021-16-08 04:08:40   INFO [WebElements:31  ] : danelle.huels@hotmail.com was inputted
+2021-16-08 04:08:40   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (80f7401de1de10aeb17eacc8494eb4e4)] -> name: SubmitCreate]
+2021-16-08 04:08:45   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 04:08:46   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:08:46   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:08:46   INFO [WebElements:31  ] : palma.denesik@hotmail.com was inputted
+2021-16-08 04:08:46   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 04:08:47   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 04:08:47   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 04:08:47   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 04:08:47   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:08:47   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:08:48   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 04:08:48   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 04:08:48   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 04:08:48   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 04:08:48   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 04:08:49   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:08:49   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:08:49   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:08:49   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:09:01   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:09:01   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:09:31   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:09:34   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (611f7c5f5232a250da6e807169be69e3)] -> xpath: //a[@class='login']]
+2021-16-08 04:09:34   INFO [WebElements:31  ] : valentine.leffler@yahoo.com was inputted
+2021-16-08 04:09:34   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (611f7c5f5232a250da6e807169be69e3)] -> name: SubmitCreate]
+2021-16-08 04:09:39   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 04:09:40   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:09:40   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:09:40   INFO [WebElements:31  ] : jerald.greenholt@yahoo.com was inputted
+2021-16-08 04:09:40   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 04:09:41   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 04:09:41   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 04:09:41   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 04:09:41   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:09:41   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:09:42   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 04:09:42   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 04:09:42   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 04:09:42   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 04:09:42   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 04:09:43   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:09:43   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:09:43   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:09:43   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:09:55   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:10:15  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-16-08 04:10:25   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:10:54   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:10:56   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (d36163a22c02c792038adc251920bb35)] -> xpath: //a[@class='login']]
+2021-16-08 04:10:57   INFO [WebElements:31  ] : brooks.smitham@gmail.com was inputted
+2021-16-08 04:10:57   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (d36163a22c02c792038adc251920bb35)] -> name: SubmitCreate]
+2021-16-08 04:10:59   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (d36163a22c02c792038adc251920bb35)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 04:10:59   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:10:59   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:10:59   INFO [WebElements:31  ] : kasey.volkman@gmail.com was inputted
+2021-16-08 04:11:00   INFO [WebElements:31  ] : qwerty123 was inputted
+2021-16-08 04:11:00   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:11:00   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:11:00   INFO [WebElements:31  ] : street New York, 12 was inputted
+2021-16-08 04:11:01   INFO [WebElements:31  ] : New York was inputted
+2021-16-08 04:11:01   INFO [WebElements:136 ] : Was selected dropdown by text: New York
+2021-16-08 04:11:01   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:11:01   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:11:01   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:11:02   INFO [WebElements:31  ] : camila.bailey@gmail.com was inputted
+2021-16-08 04:11:13   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:11:14   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:11:41   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:11:43   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (80c85de63c046db0d10f2735022438b2)] -> xpath: //a[@class='login']]
+2021-16-08 04:11:44   INFO [WebElements:31  ] : nathanial.herzog@yahoo.com was inputted
+2021-16-08 04:11:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (80c85de63c046db0d10f2735022438b2)] -> name: SubmitCreate]
+2021-16-08 04:11:49   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 04:11:49   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:11:50   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:11:50   INFO [WebElements:31  ] : ezekiel.hand@yahoo.com was inputted
+2021-16-08 04:11:50   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 04:11:50   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 04:11:51   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 04:11:51   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 04:11:51   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:11:51   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:11:52   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 04:11:52   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 04:11:52   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 04:11:52   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 04:11:52   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 04:11:52   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:11:53   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:11:53   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:11:53   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:12:05   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:12:05   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
+2021-16-08 04:13:14   INFO [RegistrationTest:71  ] : Open url - automationpractice.com
+2021-16-08 04:13:16   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ee31699009e2822c178748e40f87905e)] -> xpath: //a[@class='login']]
+2021-16-08 04:13:17   INFO [WebElements:31  ] : domenic.little@yahoo.com was inputted
+2021-16-08 04:13:17   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ee31699009e2822c178748e40f87905e)] -> name: SubmitCreate]
+2021-16-08 04:13:22   INFO [WebElements:62  ] : Radiobutton is initially checked
+2021-16-08 04:13:22   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:13:22   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:13:23   INFO [WebElements:31  ] : lamar.bergnaum@hotmail.com was inputted
+2021-16-08 04:13:23   INFO [WebElements:31  ] : asdertsz was inputted
+2021-16-08 04:13:23   INFO [WebElements:119 ] : Was selected dropdown by text: 28
+2021-16-08 04:13:23   INFO [WebElements:119 ] : Was selected dropdown by text: 10
+2021-16-08 04:13:24   INFO [WebElements:119 ] : Was selected dropdown by text: 1985
+2021-16-08 04:13:24   INFO [WebElements:31  ] : Edward was inputted
+2021-16-08 04:13:24   INFO [WebElements:31  ] : Asan was inputted
+2021-16-08 04:13:24   INFO [WebElements:31  ] : Comp123 was inputted
+2021-16-08 04:13:25   INFO [WebElements:31  ] : street Avenu, 4 was inputted
+2021-16-08 04:13:25   INFO [WebElements:31  ] : street Avenu, 7 was inputted
+2021-16-08 04:13:25   INFO [WebElements:31  ] : Los-Angeles was inputted
+2021-16-08 04:13:25   INFO [WebElements:136 ] : Was selected dropdown by text: California
+2021-16-08 04:13:25   INFO [WebElements:31  ] : 12345 was inputted
+2021-16-08 04:13:25   INFO [WebElements:136 ] : Was selected dropdown by text: United States
+2021-16-08 04:13:26   INFO [WebElements:31  ] : 1234567890 was inputted
+2021-16-08 04:13:26   INFO [WebElements:31  ] : Good was inputted
+2021-16-08 04:13:37   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='submitAccount']'
+2021-16-08 04:13:57  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-16-08 04:14:08   INFO [     Utils:24  ] : Screenshot D:\Java\auto_test_project\resources\screenshotregistrationTests\RegistrationTest.png
