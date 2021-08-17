@@ -167,7 +167,7 @@ public class RegistrationPage extends MainPage {
         webElements.inputText(addressByDefault, address);
     }
 
-    @Step("Input address line {addresss}")
+    @Step("Input address line {address}")
     public void inputAddressLine(String address) {
         webElements.inputText(addressLine, address);
     }
@@ -202,7 +202,7 @@ public class RegistrationPage extends MainPage {
         webElements.selectTextInDropDown(selectState, text);
     }
 
-    @Step("Select country {country}")
+    @Step("Select country {text}")
     public void selectCountry(String text) {
         webElements.selectTextInDropDown(idCountry, text);
     }

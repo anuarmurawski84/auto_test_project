@@ -1,5 +1,6 @@
 package libs;
 
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,7 @@ public class WebElements {
      * @param element
      * @param text
      */
+    @Step("Input text {text}")
     public void inputText(WebElement element, String text) {
         try {
             element.clear();

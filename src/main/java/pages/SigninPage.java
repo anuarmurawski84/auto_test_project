@@ -22,7 +22,7 @@ public class SigninPage extends MainPage {
      * Method click to SignIn page
      */
     @Step("Click to Signin page")
-    public void clickToSingIn() {
+    public void clickToSignIn() {
         webElements.clickOnElement(loginInput);
     }
 

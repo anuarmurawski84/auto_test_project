@@ -2,6 +2,9 @@ package registrationTests;
 
 import baseTest.BaseTest;
 import dataProviders.RegistrationPageDataProvider;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import model.Account;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +13,7 @@ public class RegistrationTest extends BaseTest {
 
     private final String FIRST_NAME = "Edward";
     private final String LAST_NAME = "Asan";
-//    private final String EMAIL = "34sss46-sdgsdgs@yopmail.com";
+    private final String EMAIL = "byss@yopmail.com";
     private final String PASSWORD = "qwerty123";
     private final String STREET = "street New York, 12";
     private final String CITY = "New York";
@@ -22,13 +25,13 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     public void testRegistration() {
-        signinPage.clickToSingIn();
+        signinPage.clickToSignIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
         registrationPage.inputFromAccount();
         registrationPage.inputCustomerFN(FIRST_NAME);
         registrationPage.inputCustomerLN(LAST_NAME);
-        registrationPage.inputEmail(faker.internet().emailAddress());
+        registrationPage.inputEmail(EMAIL);
         registrationPage.inputPassword(PASSWORD);
         registrationPage.inputFirstName(FIRST_NAME);
         registrationPage.inputLastName(LAST_NAME);
@@ -45,9 +48,11 @@ public class RegistrationTest extends BaseTest {
                 true);
     }
 
+    @Epic(value = "Registration")
+    @Severity(value = SeverityLevel.CRITICAL)
     @Test(dataProvider = "registrationNewUser", dataProviderClass = RegistrationPageDataProvider.class)
     public void testCreateAccount(Account userAccount){
-        signinPage.clickToSingIn();
+        signinPage.clickToSignIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
         registrationPage.registrationUser(userAccount);
