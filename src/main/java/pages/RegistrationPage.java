@@ -5,6 +5,7 @@ import model.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class RegistrationPage extends MainPage {
 
@@ -81,13 +82,11 @@ public class RegistrationPage extends MainPage {
     @FindBy(xpath = "//button[@name='submitAccount']")
     public WebElement submitAccount;
 
-
-
     /**
      * Method open SingIn page
      */
     public void openRegistrationPage() {
-        openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+            openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
     /**

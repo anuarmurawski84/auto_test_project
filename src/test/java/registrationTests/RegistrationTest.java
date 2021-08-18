@@ -25,13 +25,14 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     public void testRegistration() {
+        registrationPage.openRegistrationPage();
         signinPage.clickToSignIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
         registrationPage.inputFromAccount();
         registrationPage.inputCustomerFN(FIRST_NAME);
         registrationPage.inputCustomerLN(LAST_NAME);
-        registrationPage.inputEmail(EMAIL);
+        registrationPage.inputEmail(faker.internet().emailAddress());
         registrationPage.inputPassword(PASSWORD);
         registrationPage.inputFirstName(FIRST_NAME);
         registrationPage.inputLastName(LAST_NAME);
@@ -46,12 +47,15 @@ public class RegistrationTest extends BaseTest {
         myAccountPage.getHeaderName("My account");
         checkAC(myAccountPage.titleRegisteredAccount.isDisplayed(),
                 true);
+        myAccountPage.signoutFromAccount();
+
     }
 
     @Epic(value = "Registration")
     @Severity(value = SeverityLevel.CRITICAL)
     @Test(dataProvider = "registrationNewUser", dataProviderClass = RegistrationPageDataProvider.class)
     public void testCreateAccount(Account userAccount){
+        registrationPage.openRegistrationPage();
         signinPage.clickToSignIn();
         signinPage.inputEmailCreate(faker.internet().emailAddress());
         registrationPage.submitButtonCreate();
@@ -61,5 +65,6 @@ public class RegistrationTest extends BaseTest {
                 true);
         Assert.assertEquals(myAccountPage.getAccountName(),
                 userAccount.getFirstCustomerName() + " " + userAccount.getLastCustomerName());
+        myAccountPage.signoutFromAccount();
     }
 }

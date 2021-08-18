@@ -16,6 +16,9 @@ public class MyAccountPage extends MainPage{
     @FindBy(css = "#header > div.nav > div >div > nav > div:nth-child(1) > a")
     public WebElement accountBtn;
 
+    @FindBy(xpath = "//a[@class='logout']")
+    public WebElement signoutAccount;
+
     @Step("Get account name")
     public String getAccountName(){
         return accountBtn.getText();
@@ -26,4 +29,8 @@ public class MyAccountPage extends MainPage{
         webElements.isElementPresent(text);
     }
 
+    @Step("Signout account")
+    public void signoutFromAccount() {
+        webElements.clickOnElement(signoutAccount);
+    }
 }

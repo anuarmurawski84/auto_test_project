@@ -41,7 +41,7 @@ public class BaseTest {
     }
 
     @Parameters("browser")
-    @BeforeTest(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     @Step("Set up browser options {browser}")
     public void setUp(@Optional("chrome") String browser){
         if (browser.toLowerCase().equals("chrome")){
@@ -78,10 +78,10 @@ public class BaseTest {
         }
     }
 
-    @AfterTest
+    @AfterClass
     @Step("Tear down browser")
     public void tearDown(){
-        if (!(webDriver==null)){
+        if (webDriver!=null){
             screenshot();
             utils.screenShot(patchToScreenShot, webDriver);
             webDriver.quit();

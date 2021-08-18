@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="RegistrationTests" parallel="tests" thread-count="1">
+<suite name="RegistrationTests" parallel="tests" thread-count="2">
 
-    <test name="ChromeTest" verbose="1" parallel="true">
+    <test name="ChromeTest" verbose="1" parallel="false">
         <parameter name="browserName" value="chrome">
             <classes>
                 <class name="registrationTests.RegistrationTest"/>
@@ -11,12 +11,12 @@
         </parameter>
     </test>
 
-<!--    <test name="FirefoxTest" verbose="1" parallel="true">-->
-<!--        <parameter name="browserName" value="firefox">-->
-<!--            <classes>-->
-<!--                <class name="registrationTests.RegistrationTest"/>-->
-<!--            </classes>-->
-<!--        </parameter>-->
-<!--    </test>-->
+    <test name="FirefoxTest" verbose="1" parallel="false">
+        <parameter name="browserName" value="firefox">
+            <classes>
+                <class name="registrationTests.RegistrationTest"/>
+            </classes>
+        </parameter>
+    </test>
 
 </suite>
