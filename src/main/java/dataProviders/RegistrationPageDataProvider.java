@@ -12,7 +12,7 @@ public class RegistrationPageDataProvider {
         return new Object[][]{
                 {
                         new AccountBuilder()
-                                .withGender("Mr.")
+                                .withGender("1")
                                 .withFirstCustomerName("Edward")
                                 .withLastCustomerName("Asan")
                                 .withEmail(faker.internet().emailAddress())
