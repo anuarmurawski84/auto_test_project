@@ -5,6 +5,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.testng.ScreenShooter;
 import com.codeborne.selenide.testng.TextReport;
+import com.codeborne.selenide.testng.annotations.Report;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +23,7 @@ import java.util.Map;
 
 
 @Listeners({ScreenShooter.class, TextReport.class})
+@Report
 public class BaseTest {
     public Faker faker = new Faker();
 

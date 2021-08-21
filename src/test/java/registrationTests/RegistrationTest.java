@@ -9,6 +9,7 @@ import model.Account;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class RegistrationTest extends BaseTest {
 
     private final String FIRST_NAME = "Edward";
